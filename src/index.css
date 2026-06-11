@@ -29,10 +29,15 @@
   --color-warm-800: #524234;
   --color-warm-900: #362c23;
   --color-warm-950: #1f1914;
+
+  /* Brand colors provided by the user */
+  --color-brand-50: #F8FAF9;
+  --color-brand-500: #84A98C;
+  --color-brand-900: #065F46;
 }
 
 @layer base {
   body {
-    @apply bg-warm-50 text-forest-950 antialiased font-sans selection:bg-forest-200 selection:text-forest-950;
+    @apply bg-brand-50 text-brand-900 antialiased font-sans selection:bg-brand-500 selection:text-brand-50;
   }
 }
