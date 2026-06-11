@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Cambria, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-forest-50: #f4f6f4;
+  --color-forest-100: #e6ebe6;
+  --color-forest-200: #cbd7cc;
+  --color-forest-300: #a4bab5;
+  --color-forest-400: #789993;
+  --color-forest-500: #557871;
+  --color-forest-600: #425f59;
+  --color-forest-700: #354d48;
+  --color-forest-800: #2c3f3b;
+  --color-forest-900: #202e2c;
+  --color-forest-950: #121b19;
+
+  --color-warm-50: #faf8f5;
+  --color-warm-100: #f4efe6;
+  --color-warm-200: #e8ded0;
+  --color-warm-300: #d6c5b0;
+  --color-warm-400: #beaa90;
+  --color-warm-500: #a68e71;
+  --color-warm-600: #8c7358;
+  --color-warm-700: #6d5743;
+  --color-warm-800: #524234;
+  --color-warm-900: #362c23;
+  --color-warm-950: #1f1914;
+}
+
+@layer base {
+  body {
+    @apply bg-warm-50 text-forest-950 antialiased font-sans selection:bg-forest-200 selection:text-forest-950;
+  }
+}

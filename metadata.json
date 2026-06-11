@@ -1,0 +1,6 @@
+{
+  "name": "Secret Place Waterfall",
+  "description": "Discover and book pristine natural adventures at the Secret Place Waterfall in Vile Village, featuring exploration trails, swimming spots, local community highlights, and eco-friendly tour packages.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
